@@ -20,4 +20,4 @@ Route::get('Ben', function(){
     return '<center> Ben <br> <img src="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAQJAAAAJDA1YTY1ZTM0LTkzMDMtNDJhNi1iYjU5LTI4NTE3ZTA1YmU4Zg.jpg"> </center>';
 });
 
-Route::resource('shops','shopsControler');
+Route::resource('shops','shopController');
